@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    height: 80px;
+    background-color: black;
+    width: 100%;
+    position: fixed;
+}
+.logo
+{
+    padding-top: 20px;
+    float: left;
+}
+
+.logo a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding-left: 20px;
+    color: antiquewhite;
+}
+.navbar{
+    float: right;
+    padding-right: 100px;
+    padding-top: 30px;
+}
+
+.navbar a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: antiquewhite;
+}
+
+.banner{
+   
+    background-image: url(image.jpg);
+    width: 100%;
+    height: 500px;
+    
+}
+
+.banner p{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    
+    padding-top:200px ;
+    
+}
+
+.about_area{
+    margin-left: 50px;
+}
+
+
+
+.name{
+    padding: 20px 0 10px 10px;
+}
+
+.name h2{
+    font-size: 50px;
+}
+
+.about{
+    width: 70%;
+    background-color: rgb(158, 156, 156);
+    padding: 20px 30px 20px 20px;
+    border-radius: 10px;
+
+}
+
+.about h3{
+    background-color: gray;
+    width: 15%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.about p{
+    padding-top: 15px;
+    font-style: italic;
+}
+
+.project{
+    padding:20px 0 30px 0 ;
+}
+
+.contact{
+    height: 500px;
+    width: 85%;
+    background-color: rgb(199, 199, 173);
+    padding:20px 20px 0 20px ;
+    border-radius: 10px;
+}
+
+.contact h3{
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    background-color:  rgb(127, 127, 114);
+    padding: 20px 0 20px 0;
+    border-radius: 8px ;
+}
+
+.contact form{
+    margin: 40px 0 0 0;
+}
+
+.mail{
+    width: 10%;
+    padding: 20px;
+    background-color:gray;
+    border-radius: 8px;
+
+}
+
+.mail a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+
+}
