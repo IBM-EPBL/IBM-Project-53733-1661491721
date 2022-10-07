@@ -1,6 +1,6 @@
 # IBM-Project
 ## Skill / Job Recommender Application
-This is a web application that recommends skills or jobs based on your requirements. This being developed by a team of 5 members. 
+This is a web application that recommends skills or jobs based on your requirements. This is being developed by a team of 5 members. 
 ## Technologies used
 ###### Frontend 
 - HTML
