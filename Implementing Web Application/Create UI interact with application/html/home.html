@@ -1,0 +1,35 @@
+{% extends "base.html" %} {% block title %}Home{% endblock %} {% block content
+%}
+
+
+<div class="intro">
+  <h1>WELCOME {{name}}</h1>
+  <p>Job openings according to your skills are shown below</p>
+</div>
+
+
+<h1 align="center">Skills</h1>
+<ul class="list-group list-group-flush" id="notes">
+  {% for note in user.notes %}
+  <li class="list-group-item">
+    {{ note.data }}
+    <button type="button" class="close" onClick="deleteNote({{ note.id }})">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </li>
+  {% endfor %}
+</ul>
+<form method="POST">
+  <textarea name="note" id="note" class="form-control"></textarea>
+  <br />
+  <div align="center">
+    <button type="submit" class="btn btn-primary">Add skill</button>
+  </div>
+</form>
+<br>
+<br> 
+<br>
+<h1 align="center">Jobs</h1>
+
+
+{% endblock %}
