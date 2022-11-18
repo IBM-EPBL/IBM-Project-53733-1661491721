@@ -6,9 +6,9 @@
  
  - Team Lead : Jefrin J
  - Team Member 1 : Albert Ravidoss R
- - Team Member 1 : Arun K
- - Team Member 1 : Balamurugan R
- - Team Member 1 : Jai Krishnan J
+ - Team Member 2 : Arun K
+ - Team Member 3 : Balamurugan R
+ - Team Member 4 : Jai Krishnan J
  
  ## Abstract
  Having lots of skills but wondering which job will best suit you? Don't 
